@@ -1,0 +1,1 @@
+# lottto_compare
