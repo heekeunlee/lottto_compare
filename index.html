@@ -20,7 +20,7 @@
   <section class="panel"><div class="panel-head"><div><h2>회차별 본 번호 일치 개수</h2><div class="panel-note">회차당 5게임 × 6개 번호 = 30개 슬롯</div></div></div><div class="bars" id="bars"></div><div class="legend"><span><i class="dot hit"></i>예측 번호와 실제 당첨번호가 일치</span><span><i class="dot"></i>미일치</span></div></section>
   <section class="panel"><div class="panel-head"><div><h2>회차별 결과</h2><div class="panel-note">보너스 번호는 5개 본 번호 일치 시에만 2등 판정에 사용됩니다.</div></div></div><div class="table-wrap"><table class="table"><thead><tr><th>회차</th><th>실제 당첨번호</th><th>회차 합계</th><th>최고 일치</th><th>전체 일치</th><th>등수</th></tr></thead><tbody id="rounds"></tbody></table></div></section>
   <section class="panel"><div class="panel-head"><div><h2>게임별 상세 대조</h2><div class="panel-note">초록색 번호가 해당 회차의 실제 본 번호와 일치합니다.</div></div><select id="roundSelect" aria-label="회차 선택"></select></div><div class="details" id="details"></div></section>
-  <p class="notice"><strong>해석:</strong> 이번 표본에서 가장 높은 적중은 3개(5등 1게임)였고 1~4등은 없었습니다. 1237·1238회는 예측 이미지가 없어 분석에서 제외했으며, 1245회는 추첨 전이라 제외했습니다.</p>
+  <p class="notice"><strong>해석:</strong> 이번 표본에서 가장 높은 적중은 3개(5등 1게임)였고 1~4등은 없었습니다. 1237·1238회는 예측 이미지가 없어 분석에서 제외했으며, 1245회는 추첨 전이라 제외했습니다. 다음 회차부터는 1차·2차·3차 각 5세트, 총 15세트를 중복 없는 조합으로 누적 관리합니다.</p>
   <footer>자료: 사용자 제공 카카오톡 캡처 이미지 및 회차별 당첨 결과. 로또 6/45의 각 게임 당첨 확률은 독립적으로 유지되며, 이 대시보드는 과거 결과를 시각화한 참고용입니다.</footer>
 </main>
 <script>
